@@ -1,4 +1,35 @@
-#container { 
-    border:pink dashed 5px;
-    height: 300px
+*{
+    padding:5px
+}
+
+.container { 
+    border:pink;
+    min-height:200px;
+    border-radius:18px;
+    margin:0 auto;
+    max-width: 800px;
+}
+.title{
+    text-align: center;
+    font-family: cursive;
+    background-color:aliceblue
+} 
+
+.sidebar{
+    background-color: lightpink;
+    padding:40px;
+    float:left;
+}
+.content {
+    padding:20px;
+    background-color:gray;
+} 
+
+.footer{
+    background-color: bisque;
+    padding:20px;
+}
+
+.image{
+    padding-right: 100px;
 }
